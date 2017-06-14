@@ -76,4 +76,31 @@ HTML5 is supported in all modern browsers.
 <video>, <audio>, <source>, <track>, <embed>
 ```
 
+#### Use of HTML5Shiv
+
+HTML5Shiv is a JavaScript workaround to enable styling of HTML5 elements in versions of Internet Explorer prior to version 9.
+
+Add the HTML5Shiv:
+
+```html
+<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+```
+
+#### Setting The Viewport
+
+HTML5 introduced a method to control over the viewport, through the ``` <meta> ``` tag.
+
+The viewport is the user's visible area of a web page. It varies with the device, and will be smaller on a mobile phone than on a computer screen.
+
+You should include the following <meta> viewport element in all your web pages:
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
 

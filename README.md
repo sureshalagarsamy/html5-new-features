@@ -1,4 +1,13 @@
-#### What is New in HTML5?
+##### HTML History
+
+ * Tim Berners-Lee invented HTML in 1991
+ * 1991 to 1999, HTML developed from version 1 to version 4
+ * 2004 WHATWG (Web Hypertext Application Technology Working Group) was formed.
+ * 2006 W3C announced that they would support WHATWG.
+ * 2008 the first HTML5 public draft was released.
+ * W3C HTML5 recommendation was released 2014.
+
+### What is New in HTML5?
 
 Basic useful feature list:
 
@@ -11,7 +20,7 @@ Basic useful feature list:
 ```
 <meta charset="UTF-8">
 ```
-##### New HTML5 Elements
+#### New HTML5 Elements
  
  ``` 
   - semantic elements like <header>, <footer>, <article>, and <section>
@@ -20,7 +29,7 @@ Basic useful feature list:
   - multimedia elements: <audio> and <video>
  ```	
  
-##### HTML5 API's (Application Programming Interfaces)
+#### HTML5 API's (Application Programming Interfaces)
 
 Most interesting new HTML5 APIs are
  * HTML Geolocation
@@ -30,11 +39,41 @@ Most interesting new HTML5 APIs are
  * Web Workers
  * SSE
 
-##### HTML History
+#### HTML5 Browser Support
 
- * Tim Berners-Lee invented HTML in 1991
- * 1991 to 1999, HTML developed from version 1 to version 4
- * 2004 WHATWG (Web Hypertext Application Technology Working Group) was formed.
- * 2006 W3C announced that they would support WHATWG.
- * 2008 the first HTML5 public draft was released.
- * W3C HTML5 recommendation was released 2014.
+```
+HTML5 is supported in all modern browsers.
+```
+
+#### New Semantic Elements (listed few)
+
+```html
+<header>,<footer>,<nav>,<section>,<figure>,<figcaption>,<aside>, <summary>, <progress>, <details>
+```
+
+#### New Form Elements
+
+```html
+<datalist>, <keygen>, <output>
+```
+
+
+#### New Input Types (listed few)
+
+```html
+<color>, <email>, <search>, <tel>, <date>, <datetime>, <number>, <url>, <range>
+```
+
+#### Graphics Elements
+
+```html
+<canvas>, <svg>
+```
+
+#### Media Elements
+
+```html
+<video>, <audio>, <source>, <track>, <embed>
+```
+
+
